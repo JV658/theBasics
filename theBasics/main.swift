@@ -7,5 +7,22 @@
 
 import Foundation
 
-print("Hello, World!")
+var enteredPin              = true;
+var passedRetnaScan         = true;
+var hasDoorKey              = false;
+var knowsOverridePasscode   = false;
 
+
+if (enteredPin
+        && passedRetnaScan
+        || hasDoorKey)
+    || knowsOverridePasscode
+{
+    print("welcome")
+} else {
+    print("DENIED")
+}
+
+
+
+print("program terminated")
